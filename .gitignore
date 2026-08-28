@@ -1,0 +1,17 @@
+.idea/
+.vscode/
+.worktrees/
+
+# Java
+backend/target/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/*.tsbuildinfo
+
+# Local environment
+.env
+.env.*
+!.env.example
